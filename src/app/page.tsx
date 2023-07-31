@@ -1,9 +1,32 @@
-import {BiHomeCircle} from 'react-icons/bi'
+import {BiHomeCircle, BiUser} from 'react-icons/bi'
+import {BsBell, BsBookmark} from 'react-icons/bs'
+import {HiOutlineHashtag} from 'react-icons/hi'
+import {HiEnvelope} from 'react-icons/hi2'
 
 const NAVIGATION_ITEMS = [
   {
     title: 'Home',
     icon: BiHomeCircle
+  },
+  {
+    title: 'Explore',
+    icon: HiOutlineHashtag
+  },
+  {
+    title: 'Notifications',
+    icon: BsBell
+  },
+  {
+    title: 'Messages',
+    icon: HiEnvelope
+  },
+  {
+    title: 'Bookmarks',
+    icon: BsBookmark
+  },
+  {
+    title: 'Profile',
+    icon: BiUser
   }
 ]
 
