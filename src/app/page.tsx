@@ -43,7 +43,7 @@ const Home = () => {
           {
             NAVIGATION_ITEMS.map((item)=>(
               <Link
-                className="bg-white/50 flex items-center justify-center space-x-2 rounded-3xl p-4"
+                className="hover:bg-white/10 text-2xl transition duration-200 flex items-center justify-start w-fit space-x-2 rounded-3xl p-2"
                 href={`/${item.title.toLocaleLowerCase()}`}
                 key={item.title}
               >
@@ -55,8 +55,8 @@ const Home = () => {
             ))
           }
         </section>
-        <main>Home Timeline</main>
-        <section>Right Section</section>
+        {/*<main>Home Timeline</main>
+        <section>Right Section</section>*/}
       </div>
     </div>
   )
