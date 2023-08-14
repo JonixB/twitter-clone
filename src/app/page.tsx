@@ -39,7 +39,7 @@ const Home = () => {
     <div className="w-full h-full flex justify-center items-center relative bg-black">
       <div className="max-w-screen-xl w-full h-full flex relative">
         {/* left sidebar for navigation/header*/}
-        <section className="fixed w-72 flex flex-col h-screen space-y-4 my-4">
+        <section className="fixed w-[275px] flex flex-col h-screen space-y-4 my-4">
           {
             NAVIGATION_ITEMS.map((item)=>(
               <Link
@@ -54,6 +54,9 @@ const Home = () => {
               </Link>
             ))
           }
+          <button className="rounded-full m-4 bg-primary py-4 text-2xl text-center hover:bg-opacity-70 transition duration-200">
+            Tweet
+          </button>
         </section>
         {/*<main>Home Timeline</main>
         <section>Right Section</section>*/}
