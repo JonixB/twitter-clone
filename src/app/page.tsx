@@ -50,7 +50,7 @@ const Home = () => {
                 <div>
                   <item.icon />
                 </div>
-                <div>{item.title}</div>
+                {item.title !== "Twitter" && <div>{item.title}</div>}
               </Link>
             ))
           }
