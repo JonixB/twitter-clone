@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import {BiHomeCircle, BiUser} from 'react-icons/bi'
-import {BsBell, BsBookmark, BsTwitter} from 'react-icons/bs'
+import {BsBell, BsBookmark, BsTwitter, BsEnvelope} from 'react-icons/bs'
 import {HiOutlineHashtag} from 'react-icons/hi'
-import {HiEnvelope} from 'react-icons/hi2'
 
 const NAVIGATION_ITEMS = [
   { title: "Twitter",
@@ -22,7 +21,7 @@ const NAVIGATION_ITEMS = [
   },
   {
     title: 'Messages',
-    icon: HiEnvelope
+    icon: BsEnvelope
   },
   {
     title: 'Bookmarks',
