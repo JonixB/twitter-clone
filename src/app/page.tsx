@@ -5,6 +5,9 @@ import {HiOutlineHashtag} from 'react-icons/hi'
 import {HiEnvelope} from 'react-icons/hi2'
 
 const NAVIGATION_ITEMS = [
+  { title: "Twitter",
+    icon: BsTwitter
+  },
   {
     title: 'Home',
     icon: BiHomeCircle
@@ -37,9 +40,6 @@ const Home = () => {
       <div className="max-w-screen-xl w-full h-full flex relative">
         {/* left sidebar for navigation/header*/}
         <section className="fixed w-72 flex flex-col h-screen space-y-4 my-4">
-          <Link href={'/'} className='py-2 text-2xl'>
-            <BsTwitter />
-          </Link>
           {
             NAVIGATION_ITEMS.map((item)=>(
               <Link
