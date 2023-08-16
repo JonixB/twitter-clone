@@ -58,7 +58,9 @@ const Home = () => {
             Tweet
             </button>
           </div>
-          <div>bottom</div>
+          <button className="rounded-full m-4 bg-primary py-4 text-2xl text-center hover:bg-opacity-70 transition duration-200">
+            Tweet
+          </button>
         </section>
         {/*<main>Home Timeline</main>
         <section>Right Section</section>*/}
