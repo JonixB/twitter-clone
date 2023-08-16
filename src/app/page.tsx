@@ -38,8 +38,8 @@ const Home = () => {
     <div className="w-full h-full flex justify-center items-center relative bg-black">
       <div className="max-w-screen-xl w-full h-full flex relative">
         {/* left sidebar for navigation/header*/}
-        <section className="fixed w-[275px] flex flex-col items-stretch h-screen space-y-4 my-4">
-          <div>
+        <section className="fixed w-[275px] flex flex-col items-stretch h-screen">
+          <div className="flex flex-col items-stretch h-full space-y-4 mt4">
             {
               NAVIGATION_ITEMS.map((item)=>(
                 <Link
@@ -58,6 +58,7 @@ const Home = () => {
             Tweet
             </button>
           </div>
+          <div>bottom</div>
         </section>
         {/*<main>Home Timeline</main>
         <section>Right Section</section>*/}
