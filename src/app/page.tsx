@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import {BiHomeCircle, BiUser} from 'react-icons/bi'
+import {RiTwitterXFill} from 'react-icons/ri'
 import {BsBell, BsBookmark, BsTwitter, BsEnvelope} from 'react-icons/bs'
 import {HiOutlineHashtag} from 'react-icons/hi'
 
 const NAVIGATION_ITEMS = [
   { title: "Twitter",
-    icon: BsTwitter
+    icon: RiTwitterXFill
   },
   {
     title: 'Home',
