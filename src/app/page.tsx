@@ -11,15 +11,13 @@ const Home = () => {
           <div className="border-t-[0.5px] border-b-[0.5px] border-gray-600 h-32 relative">
             <div className="w-10 h-10 bg-slate-400 rounded-full"></div>
             <div className="flex flex-col">
-              <div className="border-b-[0.5px]">
-                <input type="text" placeholder="What's happening?" />
-              </div>
+              <input type="text" className="w-full h-full bg-transparent border-b-[0.5px] border-gray-600 p-4 outline-none border-none" placeholder="What's happening?" />
               <div className="w-full justify-between items-center flex">
                 <div>
 
                 </div>
-                <div>
-                  <button className="rounded-full m-4 bg-primary p-4 text-2xl text-center hover:bg-opacity-70 transition duration-200">
+                <div className="w-full max-w-[100px]">
+                  <button className="rounded-full bg-primary px-4 w-full py-2 text-lg text-center hover:bg-opacity-70 transition duration-200 font-bold">
                     Tweet
                   </button>
                 </div>
