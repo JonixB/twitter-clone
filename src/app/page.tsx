@@ -28,6 +28,15 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <div className="flex flex-col">
+            {
+              Array.from({length:5}).map((_,i)=>(
+                <div key={i} className="border-t-[0.5px] px-4 border-b-[0.5px flex space-x-4">
+
+                </div>
+              ))
+            }
+          </div>
         </main>
 
         {/*{<section>Right Section</section>*/}
