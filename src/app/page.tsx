@@ -12,13 +12,22 @@ const Home = () => {
             <div className="w-10 h-10 bg-slate-400 rounded-full"></div>
             <div className="flex flex-col">
               <div className="border-b-[0.5px]">
-                <input type="text" placeholder="What's happening?"/>
+                <input type="text" placeholder="What's happening?" />
               </div>
-              <div></div>
+              <div className="w-full justify-between items-center flex">
+                <div>
+
+                </div>
+                <div>
+                  <button className="rounded-full m-4 bg-primary p-4 text-2xl text-center hover:bg-opacity-70 transition duration-200">
+                    Tweet
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </main>
-        
+
         {/*{<section>Right Section</section>*/}
       </div>
     </div>
