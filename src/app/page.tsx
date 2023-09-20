@@ -9,7 +9,8 @@ const Home = () => {
         <main className="ml-[275px] p-6 flex w-[600px] h-full min-h-screen flex-col border-l-[0.5px] border-r-[0.5px] border-gray-600">
           <h1 className="text-xl font-bold">Home</h1>
           <div className="border-t-[0.5px] border-b-[0.5px] border-gray-600 h-32 relative">
-
+            <div className="w-10 h-10 bg-slate-400 rounded-full"></div>
+            <div className="flex flex-column"></div>
           </div>
         </main>
         
