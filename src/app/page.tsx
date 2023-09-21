@@ -36,8 +36,8 @@ const Home = () => {
                   <div>
                     <div className="w-10 h-10 bg-slate-200 rounded-full"></div>
                   </div>
-                  <div>
-                    <div>
+                  <div className="flex flex-col space-y-4">
+                    <div className="flex items-center space-x-1">
                       <div>Club of Coders</div>
                       <div>@clubofcoderscom</div>
                       <div>
@@ -45,8 +45,20 @@ const Home = () => {
                       </div>
                       <div>1 hour ago</div>
                     </div>
-                    <div></div>
-                    <div></div>
+                    <div className="text-white text-sm">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi alias deserunt quod vero necessitatibus laboriosam provident mollitia, commodi voluptatum debitis recusandae quam architecto corrupti molestiae, accusantium quos possimus quibusdam voluptate?
+                      Odit quaerat nam excepturi maxime, totam deleniti ratione, tempore error qui harum beatae quasi eaque rem exercitationem aperiam perspiciatis nisi.
+                    </div>
+                    <div className="bg-slate-400 aspect-square w-full h-96 rounded-xl">
+                      
+                    </div>
+                    <div>
+                      <div>C</div>
+                      <div>R</div>
+                      <div>L</div>
+                      <div>S</div>
+                      <div>SH</div>
+                    </div>
                   </div>
                 </div>
               ))
