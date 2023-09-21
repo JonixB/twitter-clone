@@ -1,4 +1,5 @@
 import LeftSidebar from "@/components/LeftSideBar"
+import {BsDot} from 'react-icons/bs'
 
 const Home = () => {
   return (
@@ -32,7 +33,21 @@ const Home = () => {
             {
               Array.from({length:5}).map((_,i)=>(
                 <div key={i} className="border-t-[0.5px] px-4 border-b-[0.5px flex space-x-4">
-
+                  <div>
+                    <div className="w-10 h-10 bg-slate-200 rounded-full"></div>
+                  </div>
+                  <div>
+                    <div>
+                      <div>Club of Coders</div>
+                      <div>@clubofcoderscom</div>
+                      <div>
+                        <BsDot/>
+                      </div>
+                      <div>1 hour ago</div>
+                    </div>
+                    <div></div>
+                    <div></div>
+                  </div>
                 </div>
               ))
             }
