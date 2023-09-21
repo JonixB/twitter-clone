@@ -32,13 +32,16 @@ const Home = () => {
           <div className="flex flex-col">
             {
               Array.from({length:5}).map((_,i)=>(
-                <div key={i} className="border-t-[0.5px] px-4 border-b-[0.5px flex space-x-4">
+                <div 
+                  key={i} 
+                  className="border-b-[0.5px] border-gray-600 p-4 flex space-x-4"
+                >
                   <div>
                     <div className="w-10 h-10 bg-slate-200 rounded-full"></div>
                   </div>
                   <div className="flex flex-col space-y-4">
                     <div className="flex items-center space-x-1">
-                      <div>Club of Coders</div>
+                      <div className="font-bold">Club of Coders</div>
                       <div>@clubofcoderscom</div>
                       <div>
                         <BsDot/>
