@@ -52,7 +52,7 @@ const Home = () => {
                     <div className="bg-slate-400 aspect-square w-full h-96 rounded-xl">
                       
                     </div>
-                    <div>
+                    <div className="flex items-center space-x-2 w-full">
                       <div>C</div>
                       <div>R</div>
                       <div>L</div>
