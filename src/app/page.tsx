@@ -1,5 +1,7 @@
 import LeftSidebar from "@/components/LeftSideBar"
-import {BsDot} from 'react-icons/bs'
+import { BsDot, BsChat } from 'react-icons/bs'
+import { AiOutlineHeart, AiOutlineRetweet } from 'react-icons/ai'
+import { IoStatsChart, IoShareOutline } from 'react-icons/io5'
 
 const Home = () => {
   return (
@@ -56,11 +58,21 @@ const Home = () => {
                       
                     </div>
                     <div className="flex items-center space-x-2 w-full">
-                      <div>C</div>
-                      <div>R</div>
-                      <div>L</div>
-                      <div>S</div>
-                      <div>SH</div>
+                      <div>
+                        <BsChat />
+                      </div>
+                      <div>
+                        <AiOutlineRetweet />
+                      </div>
+                      <div>
+                        <AiOutlineHeart />
+                      </div>
+                      <div>
+                        <IoStatsChart />
+                      </div>
+                      <div>
+                        <IoShareOutline />
+                      </div>
                     </div>
                   </div>
                 </div>
