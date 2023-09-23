@@ -41,7 +41,7 @@ const Home = () => {
                   <div>
                     <div className="w-10 h-10 bg-slate-200 rounded-full"></div>
                   </div>
-                  <div className="flex flex-col space-y-2">
+                  <div className="flex flex-col">
                     <div className="flex items-center space-x-1">
                       <div className="font-bold">Club of Coders</div>
                       <div>@clubofcoderscom</div>
@@ -54,10 +54,10 @@ const Home = () => {
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi alias deserunt quod vero necessitatibus laboriosam provident mollitia, commodi voluptatum debitis recusandae quam architecto corrupti molestiae, accusantium quos possimus quibusdam voluptate?
                       Odit quaerat nam excepturi maxime, totam deleniti ratione, tempore error qui harum beatae quasi eaque rem exercitationem aperiam perspiciatis nisi.
                     </div>
-                    <div className="bg-slate-400 aspect-square w-full h-96 rounded-xl">
+                    <div className="bg-slate-400 aspect-square w-full h-96 rounded-xl mt-2">
                       
                     </div>
-                    <div className="flex items-center space-x-2 w-full">
+                    <div className="flex items-center justify-start space-x-20 mt-4 w-full">
                       <div>
                         <BsChat />
                       </div>
