@@ -44,13 +44,13 @@ const Home = () => {
                   <div className="flex flex-col">
                     <div className="flex items-center space-x-1">
                       <div className="font-bold">Club of Coders</div>
-                      <div>@clubofcoderscom</div>
-                      <div>
+                      <div className="text-gray-500">@clubofcoderscom</div>
+                      <div className="text-gray-500">
                         <BsDot/>
                       </div>
-                      <div>1 hour ago</div>
+                      <div className="text-gray-500">1 hour ago</div>
                     </div>
-                    <div className="text-white text-sm">
+                    <div className="text-white text-base">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi alias deserunt quod vero necessitatibus laboriosam provident mollitia, commodi voluptatum debitis recusandae quam architecto corrupti molestiae, accusantium quos possimus quibusdam voluptate?
                       Odit quaerat nam excepturi maxime, totam deleniti ratione, tempore error qui harum beatae quasi eaque rem exercitationem aperiam perspiciatis nisi.
                     </div>
