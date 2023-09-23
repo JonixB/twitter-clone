@@ -57,20 +57,20 @@ const Home = () => {
                     <div className="bg-slate-400 aspect-square w-full h-96 rounded-xl mt-2">
                       
                     </div>
-                    <div className="flex items-center justify-start space-x-20 mt-4 w-full">
-                      <div>
+                    <div className="flex items-center justify-start space-x-20 mt-2 w-full">
+                      <div className="rounded-full hover:bg-white/20 transition duration-200 p-3 cursor-pointer">
                         <BsChat />
                       </div>
-                      <div>
+                      <div className="rounded-full hover:bg-white/20 transition duration-200 p-3 cursor-pointer">
                         <AiOutlineRetweet />
                       </div>
-                      <div>
+                      <div className="rounded-full hover:bg-white/20 transition duration-200 p-3 cursor-pointer">
                         <AiOutlineHeart />
                       </div>
-                      <div>
+                      <div className="rounded-full hover:bg-white/20 transition duration-200 p-3 cursor-pointer">
                         <IoStatsChart />
                       </div>
-                      <div>
+                      <div className="rounded-full hover:bg-white/20 transition duration-200 p-3 cursor-pointer">
                         <IoShareOutline />
                       </div>
                     </div>
