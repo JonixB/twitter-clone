@@ -9,7 +9,7 @@ const Home = () => {
       <div className="max-w-screen-xl w-full h-full flex relative">
         {/* left sidebar for navigation/header*/}
         <LeftSidebar />
-        <main className="ml-[275px] flex w-[600px] h-full min-h-screen flex-col border-l-[0.5px] border-r-[0.5px] border-gray-600">
+        <main className="ml-[275px] flex w-full max-w-[600px] h-full min-h-screen flex-col border-l-[0.5px] border-r-[0.5px] border-gray-600">
           <h1 className="text-xl font-bold p-6 backdrop-blur bg-black/10 sticky top-0">Home</h1>
           <div className="border-t-[0.5px] px-4 border-b-[0.5px] flex items-stretch py-6 space-x-2 border-gray-600 relative">
             <div className="w-10 h-10 bg-slate-400 rounded-full flex-none"></div>
@@ -59,7 +59,7 @@ const Home = () => {
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi alias deserunt quod vero necessitatibus laboriosam provident mollitia, commodi voluptatum debitis recusandae quam architecto corrupti molestiae, accusantium quos possimus quibusdam voluptate?
                       Odit quaerat nam excepturi maxime, totam deleniti ratione, tempore error qui harum beatae quasi eaque rem exercitationem aperiam perspiciatis nisi.
                     </div>
-                    <div className="bg-slate-400 aspect-square w-full h-96 rounded-xl mt-2">
+                    <div className="bg-slate-400 aspect-square w-full h-80 rounded-xl mt-2">
 
                     </div>
                     <div className="flex items-center justify-start space-x-20 mt-2 w-full">
