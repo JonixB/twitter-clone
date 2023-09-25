@@ -24,7 +24,18 @@ const Home = () => {
               </label>
             </div>
           </div>
-          <div></div>
+          <div className="flex flex-col">
+            <h3>What's Happening</h3>
+            <div>
+              {
+                Array.from({length:5}).map((_,i)=>(
+                  <div key={i}>
+                    Trending Item {i + 1}
+                  </div>
+                ))
+              }
+            </div>
+          </div>
           <div></div>
         </section>
       </div>
