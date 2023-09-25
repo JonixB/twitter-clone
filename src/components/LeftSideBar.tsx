@@ -37,7 +37,7 @@ const NAVIGATION_ITEMS = [
 
 const LeftSidebar = () => {
   return (
-    <section className="w-[275px] flex flex-col items-stretch h-screen px-6">
+    <section className="w-[22%] sticky top-0 flex flex-col items-stretch h-screen">
           <div className="flex flex-col items-stretch h-full space-y-4 mt4">
             {
               NAVIGATION_ITEMS.map((item)=>(
@@ -57,7 +57,7 @@ const LeftSidebar = () => {
             Tweet
             </button>
           </div>
-          <button className="rounded-full flex items-center space-x-2 m-4 bg-transparent p-4 text-center hover:bg-white/20 transition duration-200 w-full justify-between">
+          <button className="rounded-full flex items-center space-x-2 bg-transparent p-4 text-center hover:bg-white/20 transition duration-200 w-full justify-between">
             <div className="flex items-center space-x-2">
               <div className="rounded-full bg-slate-400 w-10 h-10">
 
