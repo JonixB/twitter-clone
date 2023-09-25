@@ -18,7 +18,7 @@ const Home = () => {
                 className="outline-none peer focus:border-primary focus:border bg-neutral-900/90 w-full h-full rounded-xl py-4 pl-14 pr-4"
               />
               <label htmlFor="searchBox"
-                className="absolute top-0 l-0 h-full flex items-center justify-center p-4"
+                className="absolute top-0 left-0 h-full flex items-center justify-center p-4 text-gray-500 peer-focus:text-primary"
               >
                 <BsSearch className="w-5 h-5" />
               </label>
