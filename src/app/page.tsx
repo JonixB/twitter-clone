@@ -20,7 +20,7 @@ const Home = () => {
                 id="searchBox"
                 type="text"
                 placeholder="Search Twitter"
-                className="outline-none bg-neutral-900/90 border-none w-full h-full rounded-xl py-4 pl-10 pr-14" />
+                className="outline-none focus:border-primary focus:border bg-neutral-900/90 w-full h-full rounded-xl py-4 pl-10 pr-14" />
             </div>
           </div>
           <div></div>
