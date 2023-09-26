@@ -37,7 +37,19 @@ const Home = () => {
               }
             </div>
           </div>
-          <div></div>
+          <div className="flex flex-col rounded-xl bg-neutral-900 my-4">
+            <h3 className="font-bold text-xl my-2 px-4">Who to follow</h3>
+            <div>
+              {
+                Array.from({length:5}).map((_,i)=>(
+                  <div key={i} className="hover:bg-white/10 p-4 last:rounded-b-xl transition duration-200">
+                    <div className="font-bold text-lg">#trending {i + 1}</div>
+                    <div className="text-xs text-neutral-400">50.2k</div>
+                  </div>
+                ))
+              }
+            </div>
+          </div>
         </section>
       </div>
     </div>
