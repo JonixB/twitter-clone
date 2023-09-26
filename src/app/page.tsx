@@ -44,10 +44,10 @@ const Home = () => {
                 Array.from({ length: 5 }).map((_, i) => (
                   <div
                     key={i}
-                    className="hover:bg-white/10 p-4 flex items-center last:rounded-b-xl transition duration-200"
+                    className="hover:bg-white/10 p-4 flex space-x-4 items-center last:rounded-b-xl transition duration-200"
                   >
                     <div className="w-10 h-10 bg-neutral-600 rounded-full"></div>
-                    <div className="flex flex-col space-y-2">
+                    <div className="flex flex-col">
                       <div>Other User</div>
                       <div>@otheruser</div>
                     </div>
