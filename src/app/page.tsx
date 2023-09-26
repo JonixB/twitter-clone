@@ -48,8 +48,8 @@ const Home = () => {
                   >
                     <div className="w-10 h-10 bg-neutral-600 rounded-full"></div>
                     <div className="flex flex-col">
-                      <div>Other User</div>
-                      <div>@otheruser</div>
+                      <div className="font-bold text-white">Other User</div>
+                      <div className="text-gray-500 text-xs">@otheruser</div>
                     </div>
                     <div>
                       <button className="rounded-full px-6 py-2 bg-white text-neutral-950">
