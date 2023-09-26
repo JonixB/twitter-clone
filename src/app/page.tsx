@@ -44,18 +44,19 @@ const Home = () => {
                 Array.from({ length: 5 }).map((_, i) => (
                   <div
                     key={i}
-                    className="hover:bg-white/10 p-4 flex space-x-4 items-center last:rounded-b-xl transition duration-200"
+                    className="hover:bg-white/10 p-4 flex justify-between items-center last:rounded-b-xl transition duration-200"
                   >
-                    <div className="w-10 h-10 bg-neutral-600 rounded-full"></div>
-                    <div className="flex flex-col">
-                      <div className="font-bold text-white">Other User</div>
-                      <div className="text-gray-500 text-xs">@otheruser</div>
+                    <div className="flex item-center space-x-2">
+                      <div className="w-10 h-10 bg-neutral-600 rounded-full flex-none"></div>
+                      <div className="flex flex-col">
+                        <div className="font-bold text-white">Other User</div>
+                        <div className="text-gray-500 text-xs">@otheruser</div>
+                      </div>
                     </div>
-                    <div>
-                      <button className="rounded-full px-6 py-2 bg-white text-neutral-950">
-                        Follow
-                      </button>
-                    </div>
+                    <button className="rounded-full px-6 py-2 bg-white text-neutral-950">
+                      Follow
+                    </button>
+
                   </div>
                 ))
               }
