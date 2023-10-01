@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "supabase": "supabase"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
@@ -33,6 +34,7 @@
   },
   "devDependencies": {
     "react-icons": "^4.11.0",
+    "supabase": "^1.99.5",
     "supabase-cli": "^0.0.21"
   }
 }
